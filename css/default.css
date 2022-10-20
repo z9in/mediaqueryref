@@ -1,0 +1,44 @@
+/* default.css */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+ol {
+    list-style-position: inside;
+    padding-left: 1em;
+}
+li {
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+.detail-btn {
+    background-color: #fff;
+    padding: 8px 20px;
+    color: black;
+}
+.title-group p {
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #000;
+}
+h2 {
+    margin-bottom: 1em;
+}
+p {
+    margin-bottom: 1em;
+}
+main .container article:last-child {
+    background-color: #efefef;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px;
+    text-align: center;
+    max-width: 1400px;
+}

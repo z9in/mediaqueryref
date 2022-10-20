@@ -1,0 +1,41 @@
+/* mobile.css */
+body {
+    background-color: lightblue;
+}
+header {
+    background-color: black;
+    color: white;
+}
+header nav{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+header nav a {
+    color: white;
+    margin-right: 0.8em;
+    margin-left: 0.8em;
+}
+#main-title {
+    background-color: #999;
+    max-width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-image: url(../images/title-bg.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .container article {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 40px;
+}
+.choice {
+    padding: 50px;
+    background-color: #fff;
+}
